@@ -47,6 +47,7 @@ function App() {
             <h3 className="game-release-date">
               Released on {game.originalReleaseDate}
             </h3>
+            <h2>My Rating: {game.myRating}</h2>
             <p className="game-intro">{game.introduction}</p>
           </div>
         );
