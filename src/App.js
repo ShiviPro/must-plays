@@ -11,13 +11,23 @@ function App() {
     }
   }
 
+  let [userSelection, setUserSelection] = useState("None");
+  let [isGenreSelected, setIsGenreSelected] = useState(false);
+
+  const selectGenre = (event) => {
+    setIsGenreSelected(true);
+    userSelection = event.target.innerText;
+    while (userSelection.includes(" ")) {
+      userSelection = userSelection.replace(" ", "_");
+    }
+    setUserSelection(userSelection);
+  };
+
   let gameGenreDivs = gameGenres.map((gameGenre, index) => (
-    <div key={index} className="game-genre">
+    <div key={index} className="game-genre" onClick={selectGenre}>
       {gameGenre}
     </div>
   ));
-
-  let [isGenreSelected, setIsGenreSelected] = useState(false);
 
   function Games(props) {
     if (isGenreSelected) {
@@ -46,18 +56,6 @@ function App() {
     return null;
   }
 
-  let [userSelection, setUserSelection] = useState("");
-
-  const selectGenre = (event) => {
-    setIsGenreSelected(true);
-    userSelection = event.target.innerText;
-
-    while (userSelection.includes(" ")) {
-      userSelection = userSelection.replace(" ", "_");
-    }
-    setUserSelection(userSelection);
-  };
-
   return (
     <div className="App">
       <h1 className="brand-name">Must Plays</h1>
@@ -66,9 +64,8 @@ function App() {
         with -
       </p>
       <p className="genre-heading">Genres: </p>
-      <div className="game-genres" onClick={selectGenre}>
-        {gameGenreDivs}
-      </div>
+      <div className="game-genres">{gameGenreDivs}</div>
+      <p class="selected-genre">Selected: {userSelection}</p>
       <div className="games">
         <Games genre={userSelection} />
       </div>
