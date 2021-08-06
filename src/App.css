@@ -1,3 +1,33 @@
 .App {
   text-align: center;
 }
+
+.brand-name {
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.genre-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.game-genres {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.game-genre {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 1.4rem;
+}
