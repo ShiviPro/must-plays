@@ -1,6 +1,7 @@
 const mustPlayGames = {
   Action: [
     {
+      id: 1,
       name: "Bayonetta",
       platforms: [
         "PlayStation 3",
@@ -18,6 +19,7 @@ const mustPlayGames = {
   ],
   Action_RPG: [
     {
+      id: 2,
       name: "Witcher 3",
       platforms: [
         "Windows",
@@ -32,6 +34,7 @@ const mustPlayGames = {
         "Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter, who is on the run from the otherworldly Wild Hunt. Players battle the game's many dangers with weapons and magic, interact with non-player characters, and complete quests to acquire experience points and gold, which are used to increase Geralt's abilities and purchase equipment. The game's story has three possible endings, determined by the player's choices at key points in the narrative.",
     },
     {
+      id: 3,
       name: "Diablo",
       platforms: ["Windows", "PlayStation", "MacOS"],
       originalReleaseDate: "03/01/1997",
@@ -39,6 +42,7 @@ const mustPlayGames = {
         "Set in the fictional Kingdom of Khanduras in the mortal realm, the player controls a lone hero battling to rid the world of Diablo, the Lord of Terror. Beneath the town of Tristram, the player journeys through sixteen randomly generated dungeon levels, ultimately entering Hell in order to face Diablo.",
     },
     {
+      id: 4,
       name: "The Elder Scrolls V: Skyrim",
       platforms: [
         "Windows",
@@ -55,6 +59,7 @@ const mustPlayGames = {
   ],
   Action_Adventure: [
     {
+      id: 5,
       name: "The Legend of Zelda: A Link to the Past",
       platforms: [
         "Super Nintendo Entertainment System",
@@ -69,6 +74,7 @@ const mustPlayGames = {
         "The story is officially set many years before the events of the first two Zelda games. The player assumes the role of Link as he journeys to save Hyrule, defeat the demon king Ganon, and rescue the descendants of the Seven Sages. It returns to a top-down perspective similar to the original The Legend of Zelda, dropping the side-scrolling gameplay of Zelda II: The Adventure of Link. It introduced series staples such as parallel worlds and items including the Master Sword.",
     },
     {
+      id: 6,
       name: "Tomb Raider",
       platforms: [
         "Sega Saturn",
@@ -85,6 +91,7 @@ const mustPlayGames = {
         " The game follows archaeologist-adventurer Lara Croft, who is hired by businesswoman Jacqueline Natla to find an artefact called the Scion of Atlantis. Gameplay features Lara navigating levels split into multiple areas and room complexes while fighting enemies and solving puzzles to progress.",
     },
     {
+      id: 7,
       name: "Castlevania: Symphony of the Night",
       platforms: [
         "PlayStation",
@@ -100,6 +107,7 @@ const mustPlayGames = {
         "It is a direct sequel to Castlevania: Rondo of Blood, taking place four years later. It features Dracula's dhampir son Alucard as the protagonist, rising from his slumber to explore Dracula's castle which resurfaced after Richter Belmont vanished.[4] Its design marks a break from previous entries in the series, re-introducing the exploration, nonlinear level design, and role-playing elements first experimented with in Castlevania II: Simon's Quest.",
     },
     {
+      id: 8,
       name: "The Legend of Zelda: Ocarina of Time",
       platforms: ["Nintendo 64", "GameCube", "iQue Player", "Nintedo 3DS"],
       originalReleaseDate: "21/11/1998",
@@ -107,6 +115,7 @@ const mustPlayGames = {
         "The player controls Link in the fantasy land of Hyrule on a quest to stop the evil king Ganondorf, by traveling through time and navigating dungeons and an overworld. The game introduced features such as a target-lock system and context-sensitive buttons that have since become common in 3D adventure games. The player must learn to play numerous songs on an ocarina to progress.",
     },
     {
+      id: 9,
       name: "The Legend of Zelda: Majora's Mask",
       platforms: ["Nintendo 64", "GameCube", "3DS", "Wii", "Wii U"],
       originalReleaseDate: "27/04/2000",
@@ -114,6 +123,7 @@ const mustPlayGames = {
         "The story of Majora's Mask takes place two months after the events of Ocarina of Time. It follows Link, who on a personal quest ends up in Termina, a world parallel to Hyrule. Upon reaching Termina, Link learns that the world is endangered as the moon will fall into the world in three days.",
     },
     {
+      id: 10,
       name: "Devil May Cry",
       platforms: [
         "PlayStation 2",
@@ -129,6 +139,7 @@ const mustPlayGames = {
         "Set in modern times on the fictional Mallet Island, the story centers on Dante, a demon hunter who uses his business to carry out a lifelong vendetta against all demons. He meets a woman named Trish who takes him on a journey to defeat the demon lord Mundus, who is responsible for the deaths of Dante's brother and mother. The story is told primarily through a mixture of cutscenes, which use the game engine and several pre-rendered full motion videos.",
     },
     {
+      id: 11,
       name: "Metroid Prime",
       platforms: ["GameCube", "Wii"],
       originalReleaseDate: "17/11/2002",
@@ -136,6 +147,7 @@ const mustPlayGames = {
         "Metroid Prime is the first game in the Metroid Prime saga, which takes place between the original Metroid and Metroid II: Return of Samus.[5][6] Like previous games in the series, Metroid Prime has a science fiction setting in which players control the bounty hunter and series protagonist, Samus Aran. The story follows Samus as she battles the Space Pirates and their biological experiments on the planet Tallon IV.",
     },
     {
+      id: 12,
       name: "Beyond Good & Evil",
       platforms: [
         "PlayStation 2",
@@ -150,6 +162,7 @@ const mustPlayGames = {
         "The story follows the adventures of Jade, an investigative reporter and martial artist, who works with a resistance movement to reveal a planet-wide alien conspiracy. The player controls Jade and allies, solving puzzles, fighting enemies, and obtaining photographic evidence.",
     },
     {
+      id: 13,
       name: "Prince of Persia: The Sands of Time",
       platforms: [
         "Game Boy Advance",
@@ -167,6 +180,7 @@ const mustPlayGames = {
         "The game follows an unnamed Prince whose father sacks an ancient city at the instigation of a traitorous Vizier. During the attack, the Prince obtains an artifact called the Dagger of Time, while his father's army captures an hourglass containing the mysterious Sands of Time. Visiting the palace of the Sultan of Azad to present the Sands as a gift, the Vizier tricks the Prince into releasing the Sands, transforming the people of Azad into savage monsters under his control. Together with Farah, a young Princess who knows the power of the Sands, the Prince works to correct his mistake and foil the Vizier's evil plans. The gameplay revolves around the Prince's platforming abilities, broken up by fights with the creatures created by the Sands. A key mechanic in the game is using the Dagger to rewind time if the Prince makes a mistake platforming, and using it to kill and freeze enemies.",
     },
     {
+      id: 14,
       name: "Grand Theft Auto: San Andreas",
       platforms: [
         "PlayStation 2",
@@ -185,6 +199,7 @@ const mustPlayGames = {
         "The game features references to many real-life elements of the world, such as its cities, regions, and landmarks, with its plot heavily based on several real-life events in Los Angeles in the early 1990s, including the rivalry between real-life street gangs, the crack epidemic of the 1980s and early 1990s, the LAPD Rampart scandal, and the 1992 Los Angeles riots. Unlike its predecessor, San Andreas introduced gameplay elements that were incorporated in later games, including RPG-style mechanics, customisation options with both clothing and vehicle appearances, a vast array of activities and mini-games, and the inclusion of gambling games.",
     },
     {
+      id: 15,
       name: "God of War",
       platforms: ["PlayStation 2"],
       originalReleaseDate: "22/03/2005",
@@ -192,6 +207,7 @@ const mustPlayGames = {
         "The player controls the protagonist Kratos, a Spartan warrior who serves the Olympian Gods. The goddess Athena tasks Kratos with killing Ares, the God of War and Kratos' former mentor who tricked Kratos into killing his wife and daughter. As Ares besieges Athens out of hatred for Athena, Kratos embarks on a quest to find the one object capable of stopping the god once and for all: Pandora's Box.The gameplay of God of War focuses on combo-based combat, achieved through the player's main weapon—the Blades of Chaos—and a secondary weapon acquired later in the game. It features quick time events that require the player to complete various game controller actions in a timed sequence to defeat stronger enemies and bosses. The player can use up to four magical attacks and a power-enhancing ability as alternative combat options. It also features puzzles and platforming elements.",
     },
     {
+      id: 16,
       name: "Red Dead Redemption",
       platforms: ["PlayStation 3", "Xbox 360"],
       originalReleaseDate: "18/05/2010",
@@ -199,6 +215,7 @@ const mustPlayGames = {
         "Red Dead Redemption is set during the decline of the American frontier in the year 1911 and follows John Marston, a former outlaw whose wife and son are taken hostage by the government in ransom for his services as a hired gun. Having no other choice, Marston sets out to bring three members of his former gang to justice. The game is played from a third-person perspective. The player may freely roam in its interactive open world, a fictionalized version of the Western United States and Northern Mexico, primarily by horseback and on foot. Gunfights emphasize a gunslinger gameplay mechanic called \"Dead Eye\" that allows players to mark multiple shooting targets on enemies in slow motion. The game makes use of a morality system, by which the player's actions in the game affect their character's levels of honor and fame and how other characters respond to the player.",
     },
     {
+      id: 17,
       name: "Batman: Arkham Asylum",
       platforms: [
         "PlayStation 3",
@@ -213,6 +230,7 @@ const mustPlayGames = {
         "The game is presented from the third-person perspective with a primary focus on Batman's combat and stealth abilities, detective skills, and gadgets that can be used in combat and exploration. Batman can freely move around the Arkham Asylum facility, interacting with characters and undertaking missions, and unlocking new areas by progressing through the main story or obtaining new equipment. The player is able to complete side missions away from the main story to unlock additional content and collectible items. Combat focuses on chaining attacks together against numerous foes while avoiding damage, while stealth allows Batman to conceal himself around an area, using gadgets and the environment to silently eliminate enemies.",
     },
     {
+      id: 18,
       name: "Assassin's Creed II",
       platforms: [
         "PlayStation 3",
@@ -227,6 +245,7 @@ const mustPlayGames = {
         "The plot is set in a fictional history of real-world events and follows the centuries-old struggle between the Assassins, who fight for peace with free will, and the Knights Templar, who desire peace through control. The framing story is set in the 21st century and follows Desmond Miles as he relives the genetic memories of his ancestor Ezio Auditore da Firenze to uncover the mysteries left behind by an ancient race known as the First Civilization in the hope of ending the Assassin-Templar conflict. The main narrative takes place at the height of the Renaissance in Italy during the late 15th century, and follows Ezio's journey as an Assassin while seeking revenge against those responsible for the death of his father and brothers. The game features an open world comprising Florence, Venice, Monteriggioni, San Gimignano, and Forlì, and focuses on the player's combat, stealth and parkour abilities.",
     },
     {
+      id: 19,
       name: "The Last of Us",
       platforms: ["PlayStation 3", "PlayStation 4"],
       originalReleaseDate: "14/06/2013",
@@ -234,6 +253,7 @@ const mustPlayGames = {
         "Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective. Players use firearms and improvised weapons, and can use stealth to defend against hostile humans and cannibalistic creatures infected by a mutated fungus in the genus Cordyceps. In the online multiplayer mode, up to eight players engage in cooperative and competitive gameplay.",
     },
     {
+      id: 20,
       name: "Grand Theft Auto V",
       platforms: [
         "PlayStation 3",
@@ -249,6 +269,7 @@ const mustPlayGames = {
         'The game is played from either a third-person or first-person perspective, and its world is navigated on foot and by vehicle. Players control the three lead protagonists throughout single-player and switch among them, both during and outside missions. The story is centred on the heist sequences, and many missions involve shooting and driving gameplay. A "wanted" system governs the aggression of law enforcement response to players who commit crimes. Grand Theft Auto Online, the game\'s online multiplayer mode, lets up to 30 players engage in a variety of different cooperative and competitive game modes.',
     },
     {
+      id: 21,
       name: "The Legend of Zelda: Breath of the Wild",
       platforms: ["Nintendo Switch", "Wii U"],
       originalReleaseDate: "03/03/2017",
@@ -258,6 +279,7 @@ const mustPlayGames = {
   ],
   Adventure: [
     {
+      id: 22,
       name: "Journey",
       platforms: ["PlayStation 3", "PlayStation 4", "Windows", "iOS"],
       originalReleaseDate: "13/03/2012",
@@ -265,6 +287,7 @@ const mustPlayGames = {
         "In Journey, the player controls a robed figure in a vast desert, traveling towards a mountain in the distance. Other players on the same journey can be discovered, and two players can meet and assist each other, but they cannot communicate via speech or text and cannot see each other's names until after the game's credits. The only form of communication between the two is a musical chime, which transforms dull pieces of cloth found throughout the levels into vibrant red, affecting the game world and allowing the player to progress through the levels. The developers sought to evoke in the player a sense of smallness and wonder and to forge an emotional connection between them and the anonymous players they meet along the way. The music, composed by Austin Wintory, dynamically responds to the player's actions, building a single theme to represent the game's emotional arc throughout the story.",
     },
     {
+      id: 23,
       name: "The Walking Dead",
       platforms: [
         "Android",
@@ -272,7 +295,7 @@ const mustPlayGames = {
         "Kindle Fire HDX",
         "OS X",
         "Linux",
-        "Microsoft Windows",
+        "Windows",
         "Nintendo Switch",
         "Ouya",
         "PlayStation 3",
@@ -288,6 +311,7 @@ const mustPlayGames = {
   ],
   Fighting: [
     {
+      id: 24,
       name: "Mortal Kombat",
       platforms: [
         "Arcade",
@@ -307,6 +331,7 @@ const mustPlayGames = {
         "Mortal Kombat is an arcade fighting game developed and published by Midway in 1992. It is the first entry in the Mortal Kombat series and subsequently was released by Acclaim Entertainment for nearly every home platform of the time. The game focuses on several characters of various intentions who enter a martial arts tournament with worldly consequences. It introduced many key aspects of the Mortal Kombat series, including the unique five-button control scheme and gory finishing moves called Fatalities.",
     },
     {
+      id: 25,
       name: "Tekken 3",
       platforms: ["Arcade", "PlayStation"],
       originalReleaseDate: "20/03/1997",
@@ -315,6 +340,7 @@ const mustPlayGames = {
     },
 
     {
+      id: 26,
       name: "Street Fighter II",
       platforms: ["Arcade"],
       originalReleaseDate: "06/02/1991",
@@ -323,6 +349,7 @@ const mustPlayGames = {
     },
 
     {
+      id: 27,
       name: "Super Smash Bros. Melee",
       platforms: ["GameCube"],
       originalReleaseDate: "21/11/2001",
@@ -332,6 +359,7 @@ const mustPlayGames = {
   ],
   First_Person_Shooter: [
     {
+      id: 28,
       name: "Duke Nukem 3D",
       platforms: ["MS-DOS"],
       originalReleaseDate: "29/01/1996",
@@ -339,6 +367,7 @@ const mustPlayGames = {
         "Duke Nukem 3D features the adventures of the titular Duke Nukem, voiced by Jon St. John, who fights against an alien invasion on Earth. Along with Wolfenstein 3D and Doom, Duke Nukem 3D is considered to be responsible for popularizing first-person shooters, and was released to major acclaim. Reviewers praised the interactivity of the environments, gameplay, level design, and unique risqué humor, a mix of pop-culture satire and lampooning of over-the-top Hollywood action heroes.",
     },
     {
+      id: 29,
       name: "Doom",
       platforms: ["MS-DOS"],
       originalReleaseDate: "10/12/1993",
@@ -346,6 +375,7 @@ const mustPlayGames = {
         "Players assume the role of a space marine, popularly known as Doomguy, fighting his way through hordes of invading demons from Hell.",
     },
     {
+      id: 30,
       name: "Quake",
       platforms: [
         "MS-DOS",
@@ -355,13 +385,14 @@ const mustPlayGames = {
         "Sega Saturn",
         "Nintendo 64",
         "Linux",
-        "Microsoft Windows",
+        "Windows",
       ],
       originalReleaseDate: "22/06/1996",
       introduction:
         "In the game, players must find their way through various maze-like, medieval environments while battling a variety of monsters using an array of weaponry. The overall atmosphere is dark and gritty, with many stone textures and a rusty, capitalized font. Quake also takes heavy inspiration from gothic fiction and the works of H.P. Lovecraft.",
     },
     {
+      id: 31,
       name: "Counter-Strike",
       platforms: ["Windows", "Xbox", "OS X", "Linux"],
       originalReleaseDate: "09/11/2000",
@@ -369,10 +400,11 @@ const mustPlayGames = {
         "Set in various locations around the globe, players assume the roles of counter-terrorist forces and terrorist militants opposing them. During each round of gameplay, the two teams are tasked with defeating the other by the means of either achieving the map's objectives or eliminating all of the enemy combatants. Each player may customize their arsenal of weapons and accessories at the beginning of every match, with currency being earned after the end of each round.",
     },
     {
+      id: 32,
       name: "Halo: Combat Evolved",
       platforms: [
         "Xbox",
-        "Microsoft Windows",
+        "Windows",
         "Mac OS X",
         "Xbox 360",
         "Xbox One",
@@ -383,6 +415,7 @@ const mustPlayGames = {
         "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier. The Chief is accompanied by Cortana, an artificial intelligence. Players battle aliens as they attempt to uncover the secrets of the eponymous Halo, a ring-shaped artificial world.",
     },
     {
+      id: 33,
       name: "Destiny",
       platforms: ["PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One"],
       originalReleaseDate: "09/09/2014",
@@ -390,13 +423,9 @@ const mustPlayGames = {
         "Players take on the role of a Guardian, protectors of Earth's last safe city as they wield a power called Light to protect the City from different alien races. Guardians are tasked with reviving a celestial being called the Traveler, while journeying to different planets to investigate and destroy the alien threats before humanity is completely wiped out.",
     },
     {
+      id: 34,
       name: "Overwatch",
-      platforms: [
-        "Microsoft Windows",
-        "PlayStation 4",
-        "Xbox One",
-        "Nintendo Switch",
-      ],
+      platforms: ["Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"],
       originalReleaseDate: "24/05/2016",
       introduction:
         ' Described as a "hero shooter", Overwatch assigns players into two teams of six, with each player selecting from a large roster of characters, known as "heroes", with unique abilities. Teams work to complete map-specific objectives within a limited period of time. Blizzard has added new characters, maps, and game modes post-release, all free of charge, with the only additional cost to players being optional loot boxes to purchase cosmetic items.',
@@ -404,6 +433,7 @@ const mustPlayGames = {
   ],
   Life_Simulators: [
     {
+      id: 35,
       name: "Animal Crossing",
       platforms: ["Nintendo 64", "GameCube", "iQue Player"],
       originalReleaseDate: "14/04/2001",
@@ -413,6 +443,7 @@ const mustPlayGames = {
   ],
   Maze: [
     {
+      id: 36,
       name: "Pac-Man",
       platforms: ["Arcade"],
       originalReleaseDate: "22/05/1980",
@@ -422,8 +453,9 @@ const mustPlayGames = {
   ],
   MMORPG: [
     {
+      id: 37,
       name: "World Of Warcraft",
-      platforms: ["Microsoft Windows", "macOS"],
+      platforms: ["Windows", "macOS"],
       originalReleaseDate: "23/11/2004",
       introduction:
         "Similar to other MMORPGs, the game allows players to create a character avatar and explore an open game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players. The game encourages players to work together to complete quests, enter dungeons and engage in player versus player (PvP) combat, however the game can also be played solo without interacting with others. The game primarily focuses on character progression, in which players earn experience points to level up their character to make them more powerful and buy and sell items using in-game currency to acquire better equipment, among other game systems.",
@@ -431,8 +463,9 @@ const mustPlayGames = {
   ],
   MOBA: [
     {
+      id: 38,
       name: "Dota 2",
-      platforms: ["Microsoft Windows", "Linux", "OS X"],
+      platforms: ["Windows", "Linux", "OS X"],
       originalReleaseDate: "09/07/2013",
       introduction:
         ' Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play. During a match players collect experience points and items for their heroes to successfully defeat the opposing team\'s heroes in player versus player combat. A team wins by being the first to destroy the other team\'s "Ancient", a large structure located within their base.',
@@ -440,6 +473,7 @@ const mustPlayGames = {
   ],
   Platform: [
     {
+      id: 39,
       name: "Donkey Kong",
       platforms: ["Arcade"],
       originalReleaseDate: "15/07/1981",
@@ -447,6 +481,7 @@ const mustPlayGames = {
         "Its gameplay maneuvers Mario across platforms to ascend a construction site and rescue Pauline from the giant gorilla named Donkey Kong, all while avoiding or jumping over obstacles.",
     },
     {
+      id: 40,
       name: "Super Mario Bros.",
       platforms: ["Nintendo Entertainment System", "Arcade"],
       originalReleaseDate: "13/09/1985",
@@ -454,11 +489,12 @@ const mustPlayGames = {
         " Players control Mario, or his brother Luigi in the multiplayer mode, as they travel the Mushroom Kingdom to rescue Princess Toadstool from Bowser (King Koopa). They must traverse side-scrolling stages while avoiding hazards such as enemies and pits with the aid of power-ups such as the Super Mushroom, Fire Flower and Starman.",
     },
     {
+      id: 41,
       name: "Prince of Persia",
       platforms: [
         "PlayStation 3",
         "Xbox 360",
-        "Microsoft Windows",
+        "Windows",
         "Mac OS X",
         "Java (for mobile phones)",
         "Nintendo DS",
@@ -468,6 +504,7 @@ const mustPlayGames = {
         "The game is set in ancient Persia, with a player-character whose name is not revealed in the game. He is accompanied by a woman named Elika, whom he met after a large sandstorm diverted him from his course and he ended up in a mysterious land. Players traverse many different environments using his acrobatic abilities to scale walls and even crawl on the ceilings. Throughout the journey, players combat various enemies as they attempt to cleanse the land of corruption",
     },
     {
+      id: 42,
       name: "Sonic the Hedgehog",
       platforms: ["Sega Genesis"],
       originalReleaseDate: "23/07/1991",
@@ -475,10 +512,11 @@ const mustPlayGames = {
         "The game features Sonic the Hedgehog, who can run at supersonic speeds, setting out on a quest to defeat Dr. Robotnik, a scientist who has imprisoned animals in robots and stolen the powerful Chaos Emeralds. The gameplay involves collecting rings as a form of health, and a simple control scheme, with jumping and attacking controlled by a single button.",
     },
     {
+      id: 43,
       name: "Super Meat Boy",
       platforms: [
         "Xbox 360",
-        "Microsoft Windows",
+        "Windows",
         "OS X",
         "Linux",
         "PlayStation 4",
@@ -493,13 +531,15 @@ const mustPlayGames = {
   ],
   Puzzle_Platformer: [
     {
+      id: 44,
       name: "Tetris",
-      platforms: ["Arcade", "Gameboy", "NES", "Microsoft Windows"],
+      platforms: ["Arcade", "Gameboy", "NES", "Windows"],
       originalReleaseDate: "01/1987",
       introduction:
         "In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. The longer the player can delay this inevitable outcome, the higher their score will be. In multiplayer games, the players must last longer than their opponents, and in certain versions, players can inflict penalties on opponents by completing a significant number of lines. Some adaptations have provided variations to the game's theme, such as three-dimensional displays or a system for reserving pieces.",
     },
     {
+      id: 45,
       name: "Angry Birds",
       platforms: [
         "iOS",
@@ -533,6 +573,7 @@ const mustPlayGames = {
         "The gameplay revolves around players using a slingshot to launch birds at pigs stationed in or around various structures, with the intent of destroying all the pigs on the playing field. As players advance through the game, new types of birds become available (some with special abilities that can be activated by the player). Rovio Mobile has supported Angry Birds with numerous free updates that add additional game content, and the company has also released stand-alone holiday and promotional versions of the game.",
     },
     {
+      id: 46,
       name: "Portal",
       platforms: [
         "Windows",
@@ -549,6 +590,7 @@ const mustPlayGames = {
   ],
   Racing: [
     {
+      id: 47,
       name: "Gran Turismo",
       platforms: ["PlayStation"],
       originalReleaseDate: "23/12/1997",
@@ -556,6 +598,7 @@ const mustPlayGames = {
         "Gran Turismo is a racing game. The player must maneuver a car to compete against artificially intelligent drivers on various race tracks. The game uses two different modes: Arcade Mode and Simulation Mode (Gran Turismo Mode in PAL and Japanese versions). In the arcade mode, the player can freely choose the courses and vehicles they wish to use. Winning races unlocks additional cars and courses. However, simulation mode requires the player to earn different levels of driver's licenses in order to qualify for events, and earn credits (money), trophies and prize cars by winning race championships. Winning one particular championship also unlocks a video and a few additional demonstration tracks. Credits can be used to purchase additional vehicles, and for parts and tuning.",
     },
     {
+      id: 48,
       name: "Burnout 3: Takedown",
       platforms: ["PlayStation 2", "Xbox"],
       originalReleaseDate: "08/09/2004",
@@ -565,6 +608,7 @@ const mustPlayGames = {
   ],
   Real_Time_Strategy: [
     {
+      id: 49,
       name: "Warcraft II: Tides of Darkness",
       platforms: ["PC", "Mac OS"],
       originalReleaseDate: "09/12/1995",
@@ -572,22 +616,25 @@ const mustPlayGames = {
         "In Warcraft II, as in many real-time strategy (RTS) games, players collect resources to produce buildings and units in order to defeat an opponent in combat. Players gain access to more advanced units upon construction of tech buildings and research. The majority of the display screen shows the part of the territory on which the player is currently operating, and, using the small minimap, the player can select another location to view and operate on. The fog of war completely hides all territory (appears black) which the player has not explored: terrain that has been explored is always visible in gray tones, but enemy units remain visible only so long as they stay within a friendly unit's visual radius. Buildings (or their lack) remain displayed as the player last saw them, and do not register unobserved changes like being built/damaged/repaired/destroyed/replaced/upgraded.",
     },
     {
+      id: 50,
       name: "StarCraft",
-      platforms: ["Microsoft Windows", "Classic Mac OS", "Nintendo 64"],
+      platforms: ["Windows", "Classic Mac OS", "Nintendo 64"],
       originalReleaseDate: "31/03/1998",
       introduction:
         "Set in a fictitious future timeline during the 25th century AD in a distant part of the Milky Way galaxy known as the Koprulu Sector, the game revolves around three intelligent species fighting for dominance: the Terrans are humans exiled from Earth who are now skilled at adapting to any situation; the Zerg are a race of insectoid aliens in pursuit of genetic perfection and obsessed with assimilating other races; the Protoss are a humanoid species with advanced technology and psionic abilities who are attempting to preserve their civilization and strict philosophy about their way of life from the Zerg.",
     },
     {
+      id: 51,
       name: "Age of Empires II",
-      platforms: ["Microsoft Windows", "Mac OS", "PlayStation 2"],
+      platforms: ["Windows", "Mac OS", "PlayStation 2"],
       originalReleaseDate: "30/09/1999",
       introduction:
         "This game is set in the Middle Ages and contains thirteen playable civilizations. Players aim to gather resources, which they use to build towns, create armies, and defeat their enemies. There are five historically based campaigns, which constrict the player to specialized and story-backed conditions, as well as three additional single-player game modes; multiplayer is also supported.",
     },
     {
+      id: 52,
       name: "StarCraft II: Wings of Liberty",
-      platforms: ["Microsoft Windows", "macOS"],
+      platforms: ["Windows", "macOS"],
       originalReleaseDate: "27/07/2010",
       introduction:
         "Like its predecessor, the game revolves around three species: the Terrans (humans), the Zerg (a super-species of assimilated life forms), and the Protoss (a technologically advanced species with vast psionic powers). Wings of Liberty focuses on the Terrans, while the expansions, Heart of the Swarm and Legacy of the Void, would focus on the Zerg and Protoss, respectively. The game is set four years after the events of 1998's Brood War, and follows the exploits of Jim Raynor as he leads an insurgent group against the autocratic Terran Dominion. The game includes new and returning characters and locations from the original game.",
@@ -595,6 +642,7 @@ const mustPlayGames = {
   ],
   RPG: [
     {
+      id: 53,
       name: "Final Fantasy VI",
       platforms: ["Super Nintendo Entertainment System"],
       originalReleaseDate: "02/04/1994",
@@ -602,6 +650,7 @@ const mustPlayGames = {
         "Set in a world with technology resembling the Second Industrial Revolution, the game's story follows an expanding cast that includes fourteen permanent playable characters. The narrative depicts a rebellion against an immoral military dictatorship, pursuit of a magical arms race, use of chemical weapons in warfare, depictions of violent and apocalyptic confrontations, several personal redemption arcs, teenage pregnancy, and the renewal of hope and life itself.",
     },
     {
+      id: 54,
       name: "Chrono Trigger",
       platforms: [
         "Super NES",
@@ -610,13 +659,14 @@ const mustPlayGames = {
         "i-mode",
         "iOS",
         "Android",
-        "Microsoft Windows",
+        "Windows",
       ],
       originalReleaseDate: "11/03/1995",
       introduction:
         "The game's story follows a group of adventurers who travel through time to prevent a global catastrophe.The player controls the protagonist and his companions in the game's two-dimensional world, consisting of various forests, cities, and dungeons. Navigation occurs via an overworld map, depicting the landscape from a scaled-down overhead view. Areas such as forests, cities, and similar places are depicted as more realistic scaled-down maps, in which players can converse with locals to procure items and services, solve puzzles and challenges, or encounter enemies. Chrono Trigger's gameplay deviates from that of traditional Japanese RPGs in that, rather than appearing in random encounters, many enemies are openly visible on field maps or lie in wait to ambush the party. Contact with enemies on a field map initiates a battle that occurs directly on the map rather than on a separate battle screen.",
     },
     {
+      id: 55,
       name: "Pokémon Red and Blue",
       platforms: ["Game Boy"],
       originalReleaseDate: "28/09/1998",
@@ -624,15 +674,17 @@ const mustPlayGames = {
         "The player controls the protagonist from an overhead perspective and navigates him throughout the fictional region of Kanto in a quest to master Pokémon battling. The goal of the games is to become the champion of the Indigo League by defeating the eight Gym Leaders and then the top four Pokémon trainers in the land, the Elite Four. Another objective is to complete the Pokédex, an in-game encyclopedia, by obtaining the 151 available Pokémon. Red and Blue utilize the Game Link Cable, which connects two Game Boy systems together and allows Pokémon to be traded or battled between games. Both titles are independent of each other but feature the same plot, and while they can be played separately, it is necessary for players to trade between both games in order to obtain all of the original 151 Pokémon.",
     },
     {
+      id: 56,
       name: "Fallout",
-      platforms: ["MS-DOS", "Microsoft Windows", "Mac OS", "OS X"],
+      platforms: ["MS-DOS", "Windows", "Mac OS", "OS X"],
       originalReleaseDate: "10/10/1997",
       introduction:
         "Fallout is a role-playing video game. The player begins Fallout by selecting one of three characters to play as the Vault Dweller, or alternatively, they can create one with custom attributes. The Vault Dweller's primary statistics are governed by the system called SPECIAL which consists of strength, perception, endurance, charisma, intelligence, agility, and luck.",
     },
     {
+      id: 57,
       name: "The Elder Scrolls IV: Oblivion",
-      platforms: ["Microsoft Windows", "Xbox 360", "PlayStation 3"],
+      platforms: ["Windows", "Xbox 360", "PlayStation 3"],
       originalReleaseDate: "20/03/2006",
       introduction:
         "Taking place within the fictional province of Cyrodiil, Oblivion's main story revolves around the player character's efforts to thwart a fanatical cult known as the Mythic Dawn that plans to open portal gates to a demonic realm known as Oblivion. The game continues the open-world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time and to ignore or postpone the main storyline indefinitely. A perpetual objective for players is to improve their character's skills, which are numerical representations of certain abilities. Early in the game, seven skills are selected by the player as major skills for their character, with those remaining termed as minor skills.",
@@ -640,6 +692,7 @@ const mustPlayGames = {
   ],
   Sandbox: [
     {
+      id: 58,
       name: "Minecraft",
       platforms: [
         "Windows",
@@ -668,6 +721,7 @@ const mustPlayGames = {
   ],
   "Shoot_'Em_Up": [
     {
+      id: 59,
       name: "Space Invaders",
       platforms: [
         "Arcade",
@@ -691,6 +745,7 @@ const mustPlayGames = {
         "Within the shooter game genre, Space Invaders was the first fixed shooter and set the template for the shoot 'em up genre. The goal is to defeat wave after wave of descending aliens with a horizontally moving laser to earn as many points as possible.",
     },
     {
+      id: 60,
       name: "Asteroids",
       platforms: [
         "Arcade",
@@ -706,6 +761,7 @@ const mustPlayGames = {
   ],
   Sports: [
     {
+      id: 61,
       name: "Pong",
       platforms: ["Arcade"],
       originalReleaseDate: "29/11/1972",
@@ -715,17 +771,19 @@ const mustPlayGames = {
   ],
   Stealth: [
     {
+      id: 62,
       name: "Metal Gear Solid",
-      platforms: ["PlayStation", "Microsoft Windows"],
+      platforms: ["PlayStation", "Windows"],
       originalReleaseDate: "03/09/1998",
       introduction:
         "Players control Solid Snake, a soldier who infiltrates a nuclear weapons facility to neutralize the terrorist threat from FOXHOUND, a renegade special forces unit. Snake must liberate hostages and stop the terrorists from launching a nuclear strike. Cinematic cutscenes were rendered using the in-game engine and graphics, and voice acting is used throughout.",
     },
     {
+      id: 63,
       name: "Tom Clancy's Splinter Cell",
       platforms: [
         "Xbox",
-        "Microsoft Windows",
+        "Windows",
         "PlayStation 2",
         "GameCube",
         "Game Boy Advance",
@@ -739,9 +797,10 @@ const mustPlayGames = {
         'The primary focus and hallmark of Splinter Cell\'s gameplay is stealth, with strong emphasis on light and darkness. The player is encouraged to move through the shadows for concealment whenever possible. The game displays a "light meter" that reflects how visible the player character is to enemies, and night vision and thermal vision goggles to help the player navigate in darkness or smoke/fog, respectively. The light meter functions even when night vision goggles is activated, and it is possible to destroy lights, thus reducing the chances of exposure significantly.',
     },
     {
+      id: 64,
       name: "Hitman: Blood Money",
       platforms: [
-        "Microsoft Windows",
+        "Windows",
         "PlayStation 2",
         "Xbox",
         "Xbox 360",
@@ -754,6 +813,7 @@ const mustPlayGames = {
   ],
   Survival_Horror: [
     {
+      id: 65,
       name: "Resident Evil",
       platforms: ["PlayStation", "Windows", "Sega Saturn", "Nintendo DS"],
       originalReleaseDate: "22/03/1996",
@@ -761,8 +821,9 @@ const mustPlayGames = {
         "The game's plot follows Chris Redfield and Jill Valentine, members of an elite task force known as S.T.A.R.S., as they investigate the outskirts of Raccoon City following the disappearance of their team members. They soon become trapped in a mansion infested with zombies and other monsters. The player, having selected to play as Chris or Jill at the start of the game, must explore the mansion to uncover its secrets.",
     },
     {
+      id: 66,
       name: "Dead Space",
-      platforms: ["PlayStation 3", "Xbox 360", "Microsoft Windows"],
+      platforms: ["PlayStation 3", "Xbox 360", "Windows"],
       originalReleaseDate: "13/10/2008",
       introduction:
         "Set on a mining spaceship overrun by monsters called Necromorphs, the player player controls engineer Isaac Clarke from the third-person perspective as he navigates the spaceship, fights Necromorphs, and struggles with increasing psychosis. The player explores areas on the station through a chapter-based narrative, solving environmental puzzles while finding ammunition and equipment to survive. Isaac wields engineering equipment as a weapon.",
@@ -770,6 +831,7 @@ const mustPlayGames = {
   ],
   Tactical_RPG: [
     {
+      id: 67,
       name: "Final Fantasy Tactics",
       platforms: ["PlayStation"],
       originalReleaseDate: "20/06/1997",
@@ -779,9 +841,10 @@ const mustPlayGames = {
   ],
   Third_Person_Shooter: [
     {
+      id: 68,
       name: "Max Payne",
       platforms: [
-        "Microsoft Windows",
+        "Windows",
         "PlayStation 2",
         "Xbox",
         "Mac OS X",
@@ -794,8 +857,9 @@ const mustPlayGames = {
         'The game centers on former NYPD detective Max Payne, who attempts to solve the murder of his family while investigating a drug trafficking case involving a mysterious new designer drug called "Valkyr". While doing so, Max becomes entangled in a large and complex conspiracy, involving a major pharmaceutical company, organized crime, a secret society, and the U.S. military. It features a gritty neo-noir style and uses graphic novel panels (with voice-overs) as the primary means of telling the game\'s story, drawing inspiration from hard-boiled detective novels by authors like Mickey Spillane. The game contains many allusions to Norse mythology, particularly the myth of Ragnarök, and several of the names used in the game are allusions to Norse mythology. The gameplay is heavily influenced by the Hong Kong action cinema genre, particularly the work of director John Woo, and it was one of the first games to feature the bullet-time effect popularized by The Matrix.',
     },
     {
+      id: 69,
       name: "Gears of War",
-      platforms: ["Xbox 360", "Microsoft Windows"],
+      platforms: ["Xbox 360", "Windows"],
       originalReleaseDate: "07/11/2006",
       introduction:
         "The game's main story, which can be played in single or co-operative play, focuses on a squad of troops who assist in completing a desperate, last-ditch attempt to end a war against a genocidal subterranean enemy, the Locust, and save the remaining human inhabitants of their planet Sera. The game's multiplayer mode allows up to eight players to control characters from one of the two factions in a variety of online game modes. Gameplay features players using cover and strategic fire in order to win battles.",
@@ -803,6 +867,7 @@ const mustPlayGames = {
   ],
   Turn_Based_Strategy: [
     {
+      id: 70,
       name: "Civilization",
       platforms: [
         "MS-DOS",

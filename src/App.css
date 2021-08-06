@@ -30,4 +30,51 @@
   border: 2px solid black;
   border-radius: 20px;
   font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.game-info {
+  margin: 0 auto;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.game-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.game-platforms {
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: max-content max-content max-content;
+}
+
+.game-platform {
+  padding: 10px;
+  margin: 0 5px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.game-release-date {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.game-intro {
+  font-size: 1.3rem;
 }
